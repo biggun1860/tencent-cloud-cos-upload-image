@@ -3,10 +3,10 @@
   "displayName": "tencent-cloud-cos-upload-image",
   "description": "VSCode插件，在 markdown 中选择或截图上传图片至腾讯云COS",
   "version": "0.2.6",
-  "publisher": "galenye",
+  "publisher": "clzhu",
   "author": {
-    "name": "galenye",
-    "email": "s275497985@gmail.com"
+    "name": "clzhu",
+    "email": "biggun1860@qq.com"
   },
   "repository": {
     "type": "git",
@@ -108,6 +108,11 @@
           "type": "string",
           "default": "/tmp/.tencentCOSUpload",
           "description": "临时目录"
+        },
+        "tencentCOSUpload.parameters": {
+          "type": "string",
+          "default": "",
+          "description": "图片url添加后缀参数，如?imageView2/format/jpg"
         }
       }
     }
@@ -120,11 +125,11 @@
     "test": "npm run compile && node ./node_modules/vscode/bin/test"
   },
   "devDependencies": {
-    "typescript": "^3.3.1",
-    "vscode": "^1.1.28",
-    "tslint": "^5.12.1",
+    "@types/mocha": "^2.2.42",
     "@types/node": "^10.12.21",
-    "@types/mocha": "^2.2.42"
+    "tslint": "^5.12.1",
+    "typescript": "^3.3.1",
+    "vscode": "^1.1.37"
   },
   "dependencies": {
     "cos-nodejs-sdk-v5": "^2.5.7",

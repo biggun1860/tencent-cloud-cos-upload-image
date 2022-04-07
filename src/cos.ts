@@ -35,7 +35,8 @@ export default function (config: vscode.WorkspaceConfiguration, imagePath: strin
     let localFile = selectFilePath || imagePath,
         bucket = config.bucket,
         region = config.region,
-        domain = config.domain
+        domain = config.domain,
+        parameters = config.parameters
 
 
     if (domain && /^http(s)?\:\/\/(.+)/.test(domain)) {
@@ -81,6 +82,9 @@ export default function (config: vscode.WorkspaceConfiguration, imagePath: strin
                     console.log(url)
                     if (domain) {
                         url = url.replace(/[^\/]+\.cos\..+\.myqcloud.com/, domain)
+                    }
+                    if (parameters) {
+                        url = url + parameters
                     }
 
                     resolve({

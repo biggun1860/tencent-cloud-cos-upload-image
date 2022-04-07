@@ -1,4 +1,5 @@
 # tencent-cloud-cos-upload-image
+> Forked from [tencent-cloud-cos-upload-image](https://github.com/Galen-Yip/tencent-cloud-cos-upload-image)；增加`parameters`配置参数
 
 VSCode 插件，支持直接在 Markdown 文件中 **粘贴截图** 和 **选择图片** 上传到腾讯云COS，得到文件地址后引用显示，大家直接在本地写 Markdown 时特别实用。
 
@@ -38,7 +39,9 @@ VSCode 插件，支持直接在 Markdown 文件中 **粘贴截图** 和 **选择
     // 自定义域名，原来替换引用的默认COS域名，无特殊需求可不用修改
     "tencentCOSUpload.domain": "",
     // 临时目录，默认 /tmp/.tencentCOSUpload，无特殊需求可不用修改
-    "tencentCOSUpload.localPath": "/tmp/.tencentCOSUpload"
+    "tencentCOSUpload.localPath": "/tmp/.tencentCOSUpload",
+    // 图片url添加后缀参数，如?imageView2/format/jpg
+    "tencentCOSUpload.parameters": ""
 }
 ```
 
