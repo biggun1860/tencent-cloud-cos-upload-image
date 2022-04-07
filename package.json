@@ -1,6 +1,6 @@
 {
-  "name": "tencent-cloud-cos-upload-image",
-  "displayName": "tencent-cloud-cos-upload-image",
+  "name": "markdown-cos-upload-image",
+  "displayName": "markdown-cos-upload-image",
   "description": "VSCode插件，在 markdown 中选择或截图上传图片至腾讯云COS",
   "version": "0.2.6",
   "publisher": "clzhu",
@@ -10,11 +10,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Galen-Yip/tencent-cloud-cos-upload-image.git"
+    "url": "https://github.com/biggun1860/tencent-cloud-cos-upload-image.git"
   },
-  "homepage": "https://github.com/Galen-Yip/tencent-cloud-cos-upload-image",
+  "homepage": "https://github.com/biggun1860/tencent-cloud-cos-upload-image",
   "bugs": {
-    "url": "https://github.com/Galen-Yip/tencent-cloud-cos-upload-image/issues"
+    "url": "https://github.com/biggun1860/tencent-cloud-cos-upload-image/issues"
   },
   "engines": {
     "vscode": "^1.32.0"

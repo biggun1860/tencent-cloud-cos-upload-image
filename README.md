@@ -1,4 +1,4 @@
-# tencent-cloud-cos-upload-image
+# markdown-cos-upload-image
 > Forked from [tencent-cloud-cos-upload-image](https://github.com/Galen-Yip/tencent-cloud-cos-upload-image)；增加`parameters`配置参数
 
 VSCode 插件，支持直接在 Markdown 文件中 **粘贴截图** 和 **选择图片** 上传到腾讯云COS，得到文件地址后引用显示，大家直接在本地写 Markdown 时特别实用。
@@ -50,6 +50,7 @@ VSCode 插件，支持直接在 Markdown 文件中 **粘贴截图** 和 **选择
 
 ### Reference
 
+* [tencent-cloud-cos-upload-image](https://github.com/Galen-Yip/tencent-cloud-cos-upload-image)
 * [vscode-aliyun-upload-image](https://github.com/vvkee/vscode-aliyun-upload-image)
 * [vscode-upload-tencentCOS](https://github.com/Sean10/vscode-upload-tencentCOS)
 
