@@ -36,7 +36,8 @@ export default function (config: vscode.WorkspaceConfiguration, imagePath: strin
         bucket = config.bucket,
         region = config.region,
         domain = config.domain,
-        parameters = config.parameters
+        parameters = config.parameters,
+        altText = config.altText
 
 
     if (domain && /^http(s)?\:\/\/(.+)/.test(domain)) {
@@ -88,7 +89,7 @@ export default function (config: vscode.WorkspaceConfiguration, imagePath: strin
                     }
 
                     resolve({
-                        name: remoteFile,
+                        name: altText.replace('${path}', remoteFile),
                         url: url
                     })
                 })

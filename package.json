@@ -113,6 +113,11 @@
           "type": "string",
           "default": "",
           "description": "图片url添加后缀参数，如?imageView2/format/jpg"
+        },
+        "tencentCOSUpload.altText": {
+          "type": "string",
+          "default": "${path}",
+          "description": "图片的alt属性，用于在图片加载失败时显示，未配置时默认为图片的path路径"
         }
       }
     }

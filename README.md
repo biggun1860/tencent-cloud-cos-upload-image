@@ -41,7 +41,9 @@ VSCode 插件，支持直接在 Markdown 文件中 **粘贴截图** 和 **选择
     // 临时目录，默认 /tmp/.tencentCOSUpload，无特殊需求可不用修改
     "tencentCOSUpload.localPath": "/tmp/.tencentCOSUpload",
     // 图片url添加后缀参数，如?imageView2/format/jpg
-    "tencentCOSUpload.parameters": ""
+    "tencentCOSUpload.parameters": "",
+    // 图片的alt属性，用于在图片加载失败时显示，未配置时默认为图片的path路径
+    "tencentCOSUpload.altText": "${path}",
 }
 ```
 
