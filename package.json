@@ -3,6 +3,7 @@
   "displayName": "markdown-cos-upload-image",
   "description": "VSCode插件，在 markdown 中选择或截图上传图片至腾讯云COS",
   "version": "0.2.7",
+  "license": "MIT",
   "publisher": "clzhu",
   "author": {
     "name": "clzhu",
