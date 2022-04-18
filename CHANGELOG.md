@@ -6,6 +6,14 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
+## [0.2.8] - 2022-04-18
+### Added
+- Support altText config
+
+## [0.2.7] - 2022-04-07
+### Added
+- Support parameters config
+
 ## [0.2.6] - 2019-08-28
 ### Upgrade
 - Update key shortcut from shift+p to cmd+opt+p ( ctrl+alt+p )
